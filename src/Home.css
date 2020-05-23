@@ -1,0 +1,6 @@
+.home {
+  width: 100%;
+  height: calc(100vh);
+  background-image: url("./Konrad_and_dogs.JPG");
+  background-size: cover;
+}
