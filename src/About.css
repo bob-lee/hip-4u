@@ -1,12 +1,23 @@
-.contact { 
+.about { 
   display:flex;
   flex-flow: column;
-  align-items: center;
-  text-align: center;
 
-  height: calc(100vh - 7.7em);
+  min-height: calc(100vh - 7.7em);
   background-color: #eee;
 }
-.contact .content {
+.about .content {
   margin: 0.4em;
+}
+
+.about .image {
+  width: 90%;
+  min-height: 400px;
+  margin: 0 auto;
+
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.about .image.img1 {
+  background-image: url("./Konrad_at_computer.JPG");
 }
