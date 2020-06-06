@@ -14,13 +14,15 @@
     "react-dom": "^16.13.1",
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.1",
-    "react-transition-group": "^4.4.1"
+    "react-transition-group": "^4.4.1",
+    "workbox-build": "^5.1.3"
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "react-scripts build && yarn sw",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
+    "sw": "node build-sw.js",
     "clean": "rm -f functions/index.js && rm -rf functions/src",
     "babel": "node_modules/.bin/babel src -d functions/src && node_modules/.bin/babel index.js -d functions",
     "build:ssr": "yarn build && yarn babel && mv build/index.html functions",

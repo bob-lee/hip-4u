@@ -57,39 +57,6 @@ const Pricing = () => {
         <p>
           Total  :         m
         </p>
-        <p>
-          <u>The Global fee for a Total Knee Replacement is as follows: </u>
-        </p>
-        <p>
-          <b>First Consult :      $200</b>
-        </p>
-        <p>
-          <b>Surgical Fee :     $4150.05</b>
-        </p>
-        <p>
-          Physician Consult with bedside Echo (if required) :
-        </p>
-        <p>
-          Anaesthetic Fee  :  Consult/Pre-assessment
-        </p>
-        <p>
-          Ward Fees :
-        </p>
-        <p>
-          Theatre fees :
-        </p>
-        <p>
-          Diposables :
-        </p>
-        <p>
-          Implants :
-        </p>
-        <p>
-          Total  :         m
-        </p>
-        <p>
-          Due to the variation in other types of procedures, it is difficult to provide an accurate price estimate fees for other individual operations, but we will always prepare a detailed price estimate for you prior to any procedure, and barring unforeseen situations, we are generally able to stick to those estimates.
-        </p>
       </div>
     </div>
   )
