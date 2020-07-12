@@ -4,7 +4,7 @@ if (typeof window !== 'undefined') {
 }
 
 const History = () => {
-  const isTouchDevice = typeof window !== 'undefined' && window.matchMedia('(pointer:coarse)').matches
+  // const isTouchDevice = typeof window !== 'undefined' && window.matchMedia('(pointer:coarse)').matches
   return (
     <div className="history">
       <div className="content">

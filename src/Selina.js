@@ -4,7 +4,7 @@ if (typeof window !== 'undefined') {
 }
 
 const Selina = () => {
-  const isTouchDevice = typeof window !== 'undefined' && window.matchMedia('(pointer:coarse)').matches
+  // const isTouchDevice = typeof window !== 'undefined' && window.matchMedia('(pointer:coarse)').matches
   return (
     <div className="selina">
       <div className="content">

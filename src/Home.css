@@ -1,6 +1,24 @@
 .home {
-  width: 100%;
-  height: calc(100vh);
+  /* width: 100%; */
+  height: calc(100vh - 140.5px);
   background-image: url("./Konrad_and_dogs.jpg");
   background-size: cover;
+  background-position: 20% 30%;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
 }
+@media (min-width: 600px) {
+  .home {
+    height: calc(100vh - 127px);
+  }
+}
+/* 
+.home2 {
+  width: 100%;
+  height: calc(100vh - 123px);
+  background: url("./Konrad_and_dogs.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+} */

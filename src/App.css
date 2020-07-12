@@ -2,7 +2,8 @@
   /* border: 1px solid black; */
 }
 header {
-  height: 6.5em;
+  height: 104px;
+  /* height: 6.5em; */
   background-color: white;
   display: flex;
   flex-flow: row wrap;
@@ -16,11 +17,11 @@ header * {
   flex: 1 100%;
 
   text-align: center;
-  margin-top: -10px;
-  margin-bottom: -30px;
+  margin-top: 0px;
+  margin-bottom: -20px;
 }
 .header-title img {
-  width: 150px;
+  width: 170px;
 }
 
 .header-title a {
@@ -37,24 +38,112 @@ header * {
   justify-content: space-around;
   align-items: center;
   padding-bottom: 15px;
+  margin-top: 7px;
 }
 
 a.header-menu-item,
 label.header-menu-item {
   font-size: 1.4em;
-  line-height: 1.7;
+  line-height: 1.3;
   padding: 5px;
   text-decoration: none;
 }
 
-a.header-menu-item.active {
+a.header-menu-item.active,
+.ddm.active > label {
   text-decoration: underline;
 }
 
+.ddm.active > label {
+  padding: 9px 5px;
+}
+
+.header-menu .ddm {
+  position: relative;
+}
+.header-menu .ddm > input[type=checkbox] {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+}
+a.header-menu-item:hover,
+.header-menu .ddm > input[type=checkbox]:hover + label {
+  background: #eee;
+  border-radius: 0.5em;
+}
+
+.ddm .dd {
+  position:absolute;
+  right: 0px;
+  background:white;
+  height:0px;
+  transition: height 0.4s ease;
+  overflow:hidden;
+  z-index: 100;
+  opacity: 1.0;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.ddm > input[type=checkbox]:checked ~ div.dd {
+  height: 12em;
+}
+
+.ddm div.overlay {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 0;  
+  /* border: 1em solid gray; */
+  z-index: 99;
+}
+.ddm > input[type=checkbox]:checked ~ div.overlay {
+  width: 100%;
+  height: 100%;  
+}
+.ddm > .dd a {
+  font-size: 1.4em;
+  padding: 0 12px;
+  text-decoration: none;
+  text-align: right;
+  line-height: 1.9;
+}
+.ddm > .dd a:hover,
+.ddm > .dd a.active {
+  background: #eee;
+}
+.ddm > .dd a.active {
+  text-decoration: underline;
+}
+
+.header-menu .ddm > input[type=checkbox] ~ label ~ i {
+  transition: 0.4s ease;
+}
+.header-menu .ddm > input[type=checkbox]:checked ~ label ~ i {
+  transform: rotate(90deg);
+}
+.header-menu .ddm > input[type=checkbox]:not(:checked) ~ label ~ i {
+  transform: rotate(0deg);
+}
+
 footer {
+  display: flex;
+  flex-flow: row wrap;
   background: linear-gradient(#777, #444);
   color: white;
   font-size: 0.7em;
   padding: 0.2em;
-  height: 1.3em;
+  /* min-height: 1.3em; */
+  min-height: 32.5px;
+}
+@media (min-width: 600px) {
+  footer {
+    min-height: 19px;
+  }
 }
