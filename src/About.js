@@ -24,7 +24,11 @@ const About = () => {
           As a small hospital Selina Sutherland, takes great pride in being able to offer personal attention and care, we strive to provide a professional service of a high standard.  Our team also values providing services that are cost efficient.  We can do this by continuously striving to improve efficiency in the operating room, using the latest technology and techniques, minimizing theatre time and hospital stay.  Studies have shown that generally minimizing theatre time and hospital stay, results in fewer complications and more successful outcomes, with reduced costs.
         </p>
       </div>
-      <div className="image img1"></div>
+      <div className="images">
+        <div className="image">
+          <img className="image1" src="/images/Konrad_at_computer.jpg" alt="img"></img>
+        </div>
+      </div>
     </div>
   )
 }

@@ -38,16 +38,12 @@ const App = (props) => {
     <div className="App">
       <header className="App-header">
         <div className="header-title">
-          <NavLink to="/"><img src="/images/crop-hip4u.png" alt="logo hip4u" /></NavLink>
+          <NavLink activeClassName="active" to="/"><img src="/images/crop-hip4u.png" alt="hip4u" /></NavLink>
         </div>
         <nav className="header-menu">
           <NavLink className="header-menu-item" activeClassName="active" to="/about">about</NavLink >
           <NavLink className="header-menu-item" activeClassName="active" to="/selina">selina</NavLink >
           <Dropdown title={titleMore} />
-          {/* <NavLink className="header-menu-item" activeClassName="active" to="/personal">personal</NavLink >
-          <NavLink className="header-menu-item" activeClassName="active" to="/history">history</NavLink >
-          <NavLink className="header-menu-item" activeClassName="active" to="/certificates">certificates</NavLink >
-          <NavLink className="header-menu-item" activeClassName="active" to="/pricing">pricing</NavLink > */}
         </nav>
 
       </header>

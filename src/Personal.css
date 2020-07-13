@@ -8,19 +8,3 @@
 .personal .content {
   margin: 0.4em;
 }
-.personal .image {
-  width: 90%;
-  min-height: 400px;
-  margin: 0 auto;
-  margin-bottom: 5px;
-
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-.personal .image.img1 {
-  background-image: url("./Konrad_in_workshop.jpg");
-}
-.personal .image.img2 {
-  background-image: url("./Konrad_and_tractor.jpg");
-}

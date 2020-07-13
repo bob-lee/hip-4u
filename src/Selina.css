@@ -8,15 +8,3 @@
 .selina .content {
   margin: 0.4em;
 }
-.selina .image {
-  width: 90%;
-  min-height: 400px;
-  margin: 0 auto;
-
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-.selina .image.img1 {
-  background-image: url("./Konrad_operating.jpg");
-}

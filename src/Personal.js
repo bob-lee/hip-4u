@@ -30,8 +30,14 @@ const Personal = () => {
           In my spare time I like to work on engineering projects.  I have built a number of trailers as well  as an automated firewood processor.  I also have two ancient Deutz and one Fendt Tractor to keep me busy.
         </p>
       </div>
-      <div className="image img1"></div>
-      <div className="image img2"></div>
+      <div className="images">
+        <div className="image">
+          <img className="image1" src="/images/Konrad_in_workshop.jpg" alt="img"></img>
+        </div>
+        <div className="image">
+          <img className="image1" src="/images/Konrad_and_tractor.jpg" alt="img"></img>
+        </div>
+      </div>
     </div>
   )
 }

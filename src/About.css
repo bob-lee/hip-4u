@@ -8,16 +8,3 @@
 .about .content {
   margin: 0.4em;
 }
-
-.about .image {
-  width: 90%;
-  min-height: 400px;
-  margin: 0 auto;
-
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-.about .image.img1 {
-  background-image: url("./Konrad_at_computer.jpg");
-}
