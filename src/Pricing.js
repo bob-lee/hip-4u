@@ -22,7 +22,7 @@ const Pricing = () => {
           <li>Provision of private healthcare is now increasingly by large multinational healthcare organizations, who are required to show a profit</li>
         </ol>
         <p>
-          Provision of private healthcare is now increasingly by large multinational healthcare organizations, who are required to show a profit
+          In addition to quality surgery, one of my top priorities is also to provide value for money. Selina Sutherland is a locally established not for profit Trust, and has a symbiotic relationship with the Wairarapa DHB.
         </p>
         <p>
           I have been able to negotiate fixed prices/estimates for a number of operations. The prices may vary depending on implants, co-morbidities and hospital stay. (my fees are highlighted)
@@ -31,31 +31,25 @@ const Pricing = () => {
           <u>The Global fee for a Hip Replacement with a three day hospital stay should be under $20 000</u>
         </p>
         <p>
+          <b>My fees are as follows :</b>
+        </p>
+        <p>
           <b>First Consult :      $200</b>
         </p>
         <p>
           <b>Surgical Fee :     $3854</b>
         </p>
         <p>
-          Physician Consult with bedside Echo (if required) :
+          <u>The Global fee for a Total Knee Replacement by me is as follows :</u>
         </p>
         <p>
-          Anaesthetic Fee  :  Consult/Pre-assessment
+          <b>First Consult :      $200</b>
         </p>
         <p>
-          Ward Fees :
+          <b>Surgical Fee :     $4140.05</b>
         </p>
         <p>
-          Theatre fees :
-        </p>
-        <p>
-          Diposables :
-        </p>
-        <p>
-          Implants :
-        </p>
-        <p>
-          Total  :         m
+          Due to the variation in other types of procedures, it is difficult to provide an accurate price estimate fees for other individual operations, but we will always prepare a detailed price estimate for you prior to any procedure, and barring unforeseen situations, we are generally able to stick to those estimates.
         </p>
       </div>
     </div>

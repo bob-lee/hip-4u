@@ -12,22 +12,22 @@ const Personal = () => {
           PERSONAL
         </h4>
         <p>
-          We left South Africa in 2002 because of the security situation, and with concerns about what was going on over the border in Zimbabwe. Masterton Hospital offered me a job and was able to develop a pathway for me to get registered as an Orthopaedic Surgeon in New Zealand , thanks to Ian Denholm. (retired orthopaedic surgeon) We fell in love with the rural ‘feel’  of Masterton.  I always liked the idea of putting down ‘roots’, contributing to the community ‘doing our bit’. The gratitude of my many patients and seeing the results of my work walking down the street has also been very rewarding.  We have been here ever since.
+          We left South Africa in 2002 because of the security situation, and Wairarapa Hospital was able to develop a pathway for me to get registered as an Orthopaedic Surgeon in New Zealand, following a year of working under supervision at Palmerston North Hospital. We fell in love with the rural ‘feel’ of Masterton, and I have always liked the idea of putting down ‘roots’, and contributing to the community. The gratitude of my many patients and seeing the results of my work walking down the street has also been very rewarding. We have been here ever since.
         </p>
         <p>
-          I was born in Johannesburg, South Africa in 1965. My father was a post war refugee from East Germany and emigrated to South Africa in 1952, starting out in the gold mines in South Africa.  He later became a full-time water colour artist. My mother was an English speaking South African-born psychologist.  In spite of my name and heritage, I grew up speaking English in Johannesburg, South Africa.
+          My father was a post-war refugee from East Germany and emigrated to South Africa in 1952, starting out in the gold mines in South Africa. He later became a full-time water colour artist. My mother was born on a farm in the remote Karoo district. English was her first language, and later she became a psychologist.
         </p>
         <p>
-          While I was growing up, I spent a great deal of time travelling with my father to remote areas of South Africa and Namibia.  I later also visited Europe and met with my father’s family in Germany. In my late teens and early twenties, I spent a great deal of time visiting some farming friends in Namibia, which is probably where my love of farming started.
+          I was born in the gold-mining city of Johannesburg, the largest in South Africa, in 1965. As a child I spent a great deal of time travelling with my father to remote areas of South Africa and Namibia. Later I also visited Europe and met with my father’s family in Germany. In my late teens and early twenties, I visited farming friends in Namibia, which is probably where my love of farming started.
         </p>
         <p>
-          &nbsp;&nbsp;In 1995 I married my wife Lisa, a journalist.  We have three children: Gianina, who writes for the Times Age.  Reinhard, who is studying biology and screen writing, and Jurgen, who wants to become a farmer/professional hunter.
+          After I qualified as a doctor, [including two years of compulsory military service], I began the long years of study to specialize in orthopaedics, meeting my wife Lisa – a journalist - two years before I qualified. We were married in 1995, and shortly thereafter I wrote my final exams. Our three children, Gianina, Reinhard and Jurgen are now young adults.
         </p>
         <p>
-          In Africa, I always wanted to own a farm.  The trouble in Africa is that you never know when someone will decide you don’t own it anymore, and the rural crime rate is very high.  I thought Masterton would be an ideal place for me to realize my dream.  We started with 4 acres just out of town, with two cows. Then we moved to an old homestead with 45 acres and my learning started. After several different farming ventures, I realised that I did not have the time with my day job to give it my full attention, and thus I bought into a partnership for a 950 Ha sheep and beef farm, which is going well.
+          In Africa, I always wanted to own a farm, but the rural crime rate is very high. Masterton was an ideal place to realize my dream and I first started with 4 acres and two cows, and later moved to an old homestead with 45 acres. I tried leasing land of my own at Mt Bruce, and also owned a block in Alfredton, but my many responsibilities at the hospital made it difficult to fully participate, and I ended up selling. I am now a partner in a 950-hectare sheep and beef farm which is managed by another partner, and find that has worked well.
         </p>
         <p>
-          In my spare time I like to work on engineering projects.  I have built a number of trailers as well  as an automated firewood processor.  I also have two ancient Deutz and one Fendt Tractor to keep me busy.
+          In my spare time I like to work on engineering projects. I have built a number of trailers as well as an automated firewood processor. I also have two ancient Deutz tractors and one Fendt to keep me busy. Being immigrants, we are a close-knit family and enjoy exploring New Zealand together.
         </p>
       </div>
       <div className="images">
