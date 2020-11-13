@@ -17,9 +17,6 @@ const Selina = () => {
         <p>
           Selina Sutherland Hospital is a charitable (not for profit) Trust.  It employs six or seven admin staff, and a General Manager.  It has an independent Board of Trustees to provide oversight and Strategic Direction. No doctor owns shares or is employed by Selina Sutherland Hospital.  It also has very little in the way of assets.  The Building is owned by the Wairarapa DHB, the nursing staff are employed by the Wairarapa DHB, and their services are leased by Selina Sutherland Hospital.  Operating Theatre facilities and staff are likewise leased from the DHB.  The medical staff/Doctors are all independent contractors to Selina Sutherland Hospital.  This symbiotic relationship is beneficial to both the private and public hospitals.
         </p>
-        <p>
-          Selina Sutherland Hospital is a charitable (not for profit) Trust.  It employs six or seven admin staff, and a General Manager.  It has an independent Board of Trustees to provide oversight and Strategic Direction. No doctor owns shares or is employed by Selina Sutherland Hospital.  It also has very little in the way of assets.  The Building is owned by the Wairarapa DHB, the nursing staff are employed by the Wairarapa DHB, and their services are leased by Selina Sutherland Hospital.  Operating Theatre facilities and staff are likewise leased from the DHB.  The medical staff/Doctors are all independent contractors to Selina Sutherland Hospital.  This symbiotic relationship is beneficial to both the private and public hospitals.
-        </p>
       </div>
       <div className="images">
         <div className="image">
