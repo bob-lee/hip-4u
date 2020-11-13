@@ -69,17 +69,17 @@ const App = (props) => {
 
       <footer>
         Contact: Konrad Schwanecke&nbsp;&nbsp;
-        <a {...isTouchDevice ? { href: 'tel:+646377027' } : {}}>
+        <a {...isTouchDevice ? { href: 'tel:+6463770277' } : {}}>
           <i className="fa fa-phone" aria-hidden="true"></i>
-          &nbsp;(06) 377-027
+          &nbsp;(06) 377-0277
         </a>&nbsp;&nbsp;(appointments)&nbsp; 
         <a {...isTouchDevice ? { href: 'tel:+64211894095' } : {}}>
           <i className="fa fa-phone" aria-hidden="true"></i>
           &nbsp;021-189-4095
         </a>&nbsp;&nbsp; 
-        <a href="mailto:dr.Kjschwanecke@xtra.co.nz">
+        <a href="mailto:dr.kjschwanecke@xtra.co.nz">
           <i className="fa fa-envelope" aria-hidden="true"></i>
-          &nbsp;dr.Kjschwanecke@xtra.co.nz
+          &nbsp;dr.kjschwanecke@xtra.co.nz
         </a>
       </footer>
     </div>
